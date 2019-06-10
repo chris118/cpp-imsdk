@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		394A3BF12EDE4FF18678EA7F /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 762B59B24671439F915EDC68 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				334BE31D703C448790A102D5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				1AC0FBC4670443FEAAB406C8 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		AA504DC619D04E078382975A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E44E6E7F4013433494894A2E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2F55D5352B2042CE8444C125 /* CMake Rules */,
+			);
+			dependencies = (
+				8E2E060BEEE347CEAF27BC3D /* PBXTargetDependency */,
+				B9F07F144B3F409B9AF92DA8 /* PBXTargetDependency */,
+				E331089E93674118BE44BDAE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E65E87B51FC146B8BC71B8AB /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A446D755E81C4699AD40A211 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7AFD3C3409B4420EAA1D1C0A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D361669784F4C948E4902C6 /* Tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2DDE1477634491E92631CB6 /* Tcp.cpp */; };
+		0D96608C4EF94A91B6F0C95E /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 781FB77CAFCF492F970272FC /* Client.cpp */; };
+		1267A69F936F4AD687888E2D /* chat.authenticate.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 79CBCB4DD12242259B1E8ACE /* chat.authenticate.pb.cc */; };
+		133DC66DD48044A4A158098D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9CC3807F7854FAC85652761 /* main.cpp */; };
+		3513C8F6478C473C8BBD45E4 /* ClientImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F999DC3F3B5441C4882D6101 /* ClientImpl.cpp */; };
+		3A374367D7F747F3B064C85F /* chat.base.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8155F25AC1E34F68A4029E24 /* chat.base.pb.cc */; };
+		60B581A871C9465C97894CCF /* ObjectMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A124756E9EC44E85B1F712FD /* ObjectMapper.cpp */; };
+		9740AE2C48554F4DAA4B29F7 /* chat.user.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = FB194610FDAF48E3BFECCD26 /* chat.user.pb.cc */; };
+		B699ADCFEB2D4302BA568967 /* chat.message.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6E6651D9B55F4EA695A257A8 /* chat.message.pb.cc */; };
+		D9EA0DE186CD4D25B9FE9CC1 /* Tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3482ADF1B5543A3816E5567 /* Tool.cpp */; };
+		F1F04A2A73364F1480A8E10D /* chat.notification.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = DEDAB72C1FA94B76AF8B6E0D /* chat.notification.pb.cc */; };
+		F376986DE88B493D879510C6 /* chat.contacts.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5F9231E054A538AF54038 /* chat.contacts.pb.cc */; };
+		FB62D8FDD06D46548B0AF9B6 /* Packet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E25EC172394C59B3F1140F /* Packet.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		382F567E879843DEB4BFA7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2A66FE6FE54ED8B586900D;
+			remoteInfo = demo;
+		};
+		41430D4524824FFF8AF2BCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65E87B51FC146B8BC71B8AB;
+			remoteInfo = ZERO_CHECK;
+		};
+		5B6CAF9C83984E84BE27881D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22858A666DC747E9B83BC875;
+			remoteInfo = privchat;
+		};
+		77C620E32B214935A7CD098A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65E87B51FC146B8BC71B8AB;
+			remoteInfo = ZERO_CHECK;
+		};
+		B8D995B32C7542FD95F182E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65E87B51FC146B8BC71B8AB;
+			remoteInfo = ZERO_CHECK;
+		};
+		BB74201752014F3DADE0058E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22858A666DC747E9B83BC875;
+			remoteInfo = privchat;
+		};
+		C7FABFD213F04DD182E2B255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36250486513F47CE815999B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA504DC619D04E078382975A;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0176E1C3A95749C39DE0C38E /* demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = demo; sourceTree = BUILT_PRODUCTS_DIR; };
+		182992952A2A40C28DD5C74E /* libprivchat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libprivchat.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD5F9231E054A538AF54038 /* chat.contacts.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chat.contacts.pb.cc; path = proto/chat.contacts.pb.cc; sourceTree = SOURCE_ROOT; };
+		4A24569067444D69A52B492B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6E6651D9B55F4EA695A257A8 /* chat.message.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chat.message.pb.cc; path = proto/chat.message.pb.cc; sourceTree = SOURCE_ROOT; };
+		781FB77CAFCF492F970272FC /* Client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Client.cpp; sourceTree = SOURCE_ROOT; };
+		79341A7588C4465F8BF0A2E2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79CBCB4DD12242259B1E8ACE /* chat.authenticate.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chat.authenticate.pb.cc; path = proto/chat.authenticate.pb.cc; sourceTree = SOURCE_ROOT; };
+		8155F25AC1E34F68A4029E24 /* chat.base.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chat.base.pb.cc; path = proto/chat.base.pb.cc; sourceTree = SOURCE_ROOT; };
+		A124756E9EC44E85B1F712FD /* ObjectMapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = ObjectMapper.cpp; sourceTree = SOURCE_ROOT; };
+		B2DDE1477634491E92631CB6 /* Tcp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Tcp.cpp; sourceTree = SOURCE_ROOT; };
+		C8E25EC172394C59B3F1140F /* Packet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Packet.cpp; sourceTree = SOURCE_ROOT; };
+		C9CC3807F7854FAC85652761 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		D3482ADF1B5543A3816E5567 /* Tool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Tool.cpp; sourceTree = SOURCE_ROOT; };
+		DEDAB72C1FA94B76AF8B6E0D /* chat.notification.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chat.notification.pb.cc; path = proto/chat.notification.pb.cc; sourceTree = SOURCE_ROOT; };
+		DF7F6B8BF0074583BDFD286E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F999DC3F3B5441C4882D6101 /* ClientImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = ClientImpl.cpp; sourceTree = SOURCE_ROOT; };
+		FB194610FDAF48E3BFECCD26 /* chat.user.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chat.user.pb.cc; path = proto/chat.user.pb.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02AF982905CA4BB0B84C5C02 = {
+			isa = PBXGroup;
+			children = (
+				F8B886A5605F4AC89A6A9062 /* demo */,
+				39824026C4C0431C935D23EF /* privchat */,
+				D0E4D6B6F2F24305B06E2E19 /* ALL_BUILD */,
+				31D7777C25574F1F8FED4CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08011C9B7A7E4A77A3CDDA3E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC3807F7854FAC85652761 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0E460DEBC6964D75BA13B5D6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				781FB77CAFCF492F970272FC /* Client.cpp */,
+				F999DC3F3B5441C4882D6101 /* ClientImpl.cpp */,
+				A124756E9EC44E85B1F712FD /* ObjectMapper.cpp */,
+				C8E25EC172394C59B3F1140F /* Packet.cpp */,
+				B2DDE1477634491E92631CB6 /* Tcp.cpp */,
+				D3482ADF1B5543A3816E5567 /* Tool.cpp */,
+				79CBCB4DD12242259B1E8ACE /* chat.authenticate.pb.cc */,
+				8155F25AC1E34F68A4029E24 /* chat.base.pb.cc */,
+				2FD5F9231E054A538AF54038 /* chat.contacts.pb.cc */,
+				6E6651D9B55F4EA695A257A8 /* chat.message.pb.cc */,
+				DEDAB72C1FA94B76AF8B6E0D /* chat.notification.pb.cc */,
+				FB194610FDAF48E3BFECCD26 /* chat.user.pb.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1378F5E64786486CBAC2E493 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		31D7777C25574F1F8FED4CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0176E1C3A95749C39DE0C38E /* demo */,
+				182992952A2A40C28DD5C74E /* libprivchat.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39824026C4C0431C935D23EF /* privchat */ = {
+			isa = PBXGroup;
+			children = (
+				0E460DEBC6964D75BA13B5D6 /* Source Files */,
+				79341A7588C4465F8BF0A2E2 /* CMakeLists.txt */,
+			);
+			name = privchat;
+			sourceTree = "<group>";
+		};
+		D0E4D6B6F2F24305B06E2E19 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1378F5E64786486CBAC2E493 /* CMake Rules */,
+				DF7F6B8BF0074583BDFD286E /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F8B886A5605F4AC89A6A9062 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				08011C9B7A7E4A77A3CDDA3E /* Source Files */,
+				4A24569067444D69A52B492B /* CMakeLists.txt */,
+			);
+			name = demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22858A666DC747E9B83BC875 /* privchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849FE5D0C667435B806CBDD5 /* Build configuration list for PBXNativeTarget "privchat" */;
+			buildPhases = (
+				AF891543521B40B691AD3C7C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBFF6EE11FC14210A43378EE /* PBXTargetDependency */,
+			);
+			name = privchat;
+			productName = privchat;
+			productReference = 182992952A2A40C28DD5C74E /* libprivchat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC2A66FE6FE54ED8B586900D /* demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBF60A6FBAF4C8298A536E6 /* Build configuration list for PBXNativeTarget "demo" */;
+			buildPhases = (
+				9D9DDA3AE7EE4514B044C0DC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEE8FC0ED6543D9982ACBFA /* PBXTargetDependency */,
+				3A94E12BEE2D4B02AE0435E8 /* PBXTargetDependency */,
+			);
+			name = demo;
+			productName = demo;
+			productReference = 0176E1C3A95749C39DE0C38E /* demo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36250486513F47CE815999B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2CA87041762B46EF826E729D /* Build configuration list for PBXProject "privchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02AF982905CA4BB0B84C5C02;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				AA504DC619D04E078382975A /* ALL_BUILD */,
+				E65E87B51FC146B8BC71B8AB /* ZERO_CHECK */,
+				AC2A66FE6FE54ED8B586900D /* demo */,
+				394A3BF12EDE4FF18678EA7F /* install */,
+				22858A666DC747E9B83BC875 /* privchat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F55D5352B2042CE8444C125 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/putao_ios/privchat/imsdk/ios-build -f /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		334BE31D703C448790A102D5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/putao_ios/privchat/imsdk/ios-build -f /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7AFD3C3409B4420EAA1D1C0A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/putao_ios/privchat/imsdk/ios-build -f /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9DDA3AE7EE4514B044C0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133DC66DD48044A4A158098D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF891543521B40B691AD3C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D96608C4EF94A91B6F0C95E /* Client.cpp in Sources */,
+				3513C8F6478C473C8BBD45E4 /* ClientImpl.cpp in Sources */,
+				60B581A871C9465C97894CCF /* ObjectMapper.cpp in Sources */,
+				FB62D8FDD06D46548B0AF9B6 /* Packet.cpp in Sources */,
+				0D361669784F4C948E4902C6 /* Tcp.cpp in Sources */,
+				D9EA0DE186CD4D25B9FE9CC1 /* Tool.cpp in Sources */,
+				1267A69F936F4AD687888E2D /* chat.authenticate.pb.cc in Sources */,
+				3A374367D7F747F3B064C85F /* chat.base.pb.cc in Sources */,
+				F376986DE88B493D879510C6 /* chat.contacts.pb.cc in Sources */,
+				B699ADCFEB2D4302BA568967 /* chat.message.pb.cc in Sources */,
+				F1F04A2A73364F1480A8E10D /* chat.notification.pb.cc in Sources */,
+				9740AE2C48554F4DAA4B29F7 /* chat.user.pb.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC0FBC4670443FEAAB406C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA504DC619D04E078382975A /* ALL_BUILD */;
+			targetProxy = C7FABFD213F04DD182E2B255 /* PBXContainerItemProxy */;
+		};
+		3A94E12BEE2D4B02AE0435E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22858A666DC747E9B83BC875 /* privchat */;
+			targetProxy = BB74201752014F3DADE0058E /* PBXContainerItemProxy */;
+		};
+		8E2E060BEEE347CEAF27BC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E65E87B51FC146B8BC71B8AB /* ZERO_CHECK */;
+			targetProxy = 77C620E32B214935A7CD098A /* PBXContainerItemProxy */;
+		};
+		B9F07F144B3F409B9AF92DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2A66FE6FE54ED8B586900D /* demo */;
+			targetProxy = 382F567E879843DEB4BFA7D7 /* PBXContainerItemProxy */;
+		};
+		E331089E93674118BE44BDAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22858A666DC747E9B83BC875 /* privchat */;
+			targetProxy = 5B6CAF9C83984E84BE27881D /* PBXContainerItemProxy */;
+		};
+		EBFF6EE11FC14210A43378EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E65E87B51FC146B8BC71B8AB /* ZERO_CHECK */;
+			targetProxy = B8D995B32C7542FD95F182E0 /* PBXContainerItemProxy */;
+		};
+		EEEE8FC0ED6543D9982ACBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E65E87B51FC146B8BC71B8AB /* ZERO_CHECK */;
+			targetProxy = 41430D4524824FFF8AF2BCDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		093677FC1D1C43B287907B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = privchat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		1A2BEE1784024AFE9C84CF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		1A5930CD889C4BD68A40B9B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		200B897B7D754835AC8C13ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		2313C520CCCD4877A1612851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/admin/putao_ios/privchat/imsdk/./libs/mac/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/admin/putao_ios/privchat/imsdk/./libs/mac,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"/Users/admin/putao_ios/privchat/imsdk/ios-build/Release${EFFECTIVE_PLATFORM_NAME}/libprivchat.a",
+					"-lprotobuf",
+					"-lhandy",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = demo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		3252D7A5A2CE423EAFC32283 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = privchat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		45C2D1227B9146F2A081907B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/admin/putao_ios/privchat/imsdk/./libs/mac/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/admin/putao_ios/privchat/imsdk/./libs/mac,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"/Users/admin/putao_ios/privchat/imsdk/ios-build/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/libprivchat.a",
+					"-lprotobuf",
+					"-lhandy",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = demo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		5CEB495AC9F448CB996BE0A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = privchat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		6092438058E74541B5F6C49B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/admin/putao_ios/privchat/imsdk/./libs/mac/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/admin/putao_ios/privchat/imsdk/./libs/mac,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"/Users/admin/putao_ios/privchat/imsdk/ios-build/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/libprivchat.a",
+					"-lprotobuf",
+					"-lhandy",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = demo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		65542BFBD67F4B0B9FE70E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		7C98C039EA4F4087AF2C4938 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		7F3AEBBF474645A09157B74F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		8599563423414007BB6E71A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		90D0FDB9F152497C9FAA576E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build/build";
+			};
+			name = Release;
+		};
+		9545BD19A9534CBB84E08CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		9BAC0578ED99493ABA36A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build/build";
+			};
+			name = Debug;
+		};
+		9D185D142829482BA69F9B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = privchat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		9D841732B1754F01BE984A13 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C402E1BB2C46451CB4F4CB9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		CC29FED4A68C453F96ACCFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		D8B765913574488385ABDB22 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build/build";
+			};
+			name = MinSizeRel;
+		};
+		E5460315663B4473A94309C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F2DA2D64231647A6A8813F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		F2E903B93C02439594157011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/admin/putao_ios/privchat/imsdk/./include/mac;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/admin/putao_ios/privchat/imsdk/./libs/mac/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/admin/putao_ios/privchat/imsdk/./libs/mac,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-headerpad_max_install_names",
+					"-fvisibility=hidden",
+					"-fvisibility-inlines-hidden",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-headerpad_max_install_names",
+					"/Users/admin/putao_ios/privchat/imsdk/ios-build/Debug${EFFECTIVE_PLATFORM_NAME}/libprivchat.a",
+					"-lprotobuf",
+					"-lhandy",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = demo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/putao_ios/privchat/imsdk/ios-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA87041762B46EF826E729D /* Build configuration list for PBXProject "privchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAC0578ED99493ABA36A2CB /* Debug */,
+				90D0FDB9F152497C9FAA576E /* Release */,
+				D8B765913574488385ABDB22 /* MinSizeRel */,
+				E5460315663B4473A94309C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		762B59B24671439F915EDC68 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DA2D64231647A6A8813F5A /* Debug */,
+				1A2BEE1784024AFE9C84CF5C /* Release */,
+				C402E1BB2C46451CB4F4CB9C /* MinSizeRel */,
+				7F3AEBBF474645A09157B74F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BBF60A6FBAF4C8298A536E6 /* Build configuration list for PBXNativeTarget "demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E903B93C02439594157011 /* Debug */,
+				2313C520CCCD4877A1612851 /* Release */,
+				45C2D1227B9146F2A081907B /* MinSizeRel */,
+				6092438058E74541B5F6C49B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		849FE5D0C667435B806CBDD5 /* Build configuration list for PBXNativeTarget "privchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D185D142829482BA69F9B2F /* Debug */,
+				093677FC1D1C43B287907B93 /* Release */,
+				5CEB495AC9F448CB996BE0A7 /* MinSizeRel */,
+				3252D7A5A2CE423EAFC32283 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A446D755E81C4699AD40A211 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9545BD19A9534CBB84E08CC9 /* Debug */,
+				8599563423414007BB6E71A3 /* Release */,
+				9D841732B1754F01BE984A13 /* MinSizeRel */,
+				200B897B7D754835AC8C13ED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E44E6E7F4013433494894A2E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC29FED4A68C453F96ACCFCC /* Debug */,
+				65542BFBD67F4B0B9FE70E71 /* Release */,
+				7C98C039EA4F4087AF2C4938 /* MinSizeRel */,
+				1A5930CD889C4BD68A40B9B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36250486513F47CE815999B7 /* Project object */;
+}

@@ -1,0 +1,182 @@
+The target system is: Darwin - 1 - 
+The host system is: Darwin - 18.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+2019-03-05 16:05:28.793 xcodebuild[44273:7570698] [MT] PluginLoading: Skipping plug-in at path '/Library/Application Support/Developer/Shared/Xcode/Plug-ins/D for Xcode.xcplugin' because it is not compatible with this version of Xcode.
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC')
+
+CreateBuildDirectory /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    builtin-create-build-directory /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+
+MkDir /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    /bin/mkdir -p /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -miphoneos-version-min=12.1 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/include -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources/arm64 -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources -F/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c -o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC normal arm64 (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC -F/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest.dSYM /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    /bin/sh -c /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest (in target: CompilerIdC)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC
+    /usr/bin/touch -c /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: -headerpad_max_install_names;-fvisibility=hidden;-fvisibility-inlines-hidden
+Id flags:  
+
+The output was:
+0
+2019-03-05 16:05:31.566 xcodebuild[44417:7571019] [MT] PluginLoading: Skipping plug-in at path '/Library/Application Support/Developer/Shared/Xcode/Plug-ins/D for Xcode.xcplugin' because it is not compatible with this version of Xcode.
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX')
+
+CreateBuildDirectory /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    builtin-create-build-directory /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+
+MkDir /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    /bin/mkdir -p /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/all-product-headers.yaml (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=12.1 -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/include -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources -F/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+Ld /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX normal arm64 (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    export IPHONEOS_DEPLOYMENT_TARGET=12.1
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -L/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX -F/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -filelist /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -miphoneos-version-min=12.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -framework XCTest -Xlinker -dependency_info -Xlinker /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    write-file /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+GenerateDSYMFile /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest.dSYM /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    /bin/sh -c /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+Touch /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest (in target: CompilerIdCXX)
+    cd /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX
+    /usr/bin/touch -c /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+

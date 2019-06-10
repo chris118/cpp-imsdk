@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+import "chat.user.proto";
+
+package ChatPb;
+
+enum NotificationType
+{
+    APPLY_FRIEND = 0;
+}
+
+message Notification {
+    NotificationType type = 1;
+    string msgid = 2;
+    bytes data = 3;
+}
+
+//CMD_NOTIFY_TRANSFER
+message NotificationTransfer
+{
+    repeated Notification notifications = 1;
+}
+
+
+//CMD_NOTIFY_ACK
+message NotificationAck
+{
+    string msgid = 1;
+}
+
+//NotifyApplyFriend
+message NotificationApplyFriend
+{
+    User user = 1;
+    string message = 2;
+}
+

@@ -1,0 +1,5 @@
+/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/install.dir
+/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/demo.dir
+/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/privchat.dir
+/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/ALL_BUILD.dir
+/Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/ZERO_CHECK.dir

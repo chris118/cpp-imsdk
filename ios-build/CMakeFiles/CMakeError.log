@@ -1,0 +1,92 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5b7c9" "-configuration" "Debug"
+2019-03-05 16:05:33.751 xcodebuild[44472:7571260] [MT] PluginLoading: Skipping plug-in at path '/Library/Application Support/Developer/Shared/Xcode/Plug-ins/D for Xcode.xcplugin' because it is not compatible with this version of Xcode.
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_5b7c9 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+warning: The armv7s architecture is deprecated for your deployment target (iOS 12.1). You should update your ARCHS build setting to remove the armv7s architecture.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c0480" "-configuration" "Debug"
+2019-03-05 16:05:35.060 xcodebuild[44485:7571377] [MT] PluginLoading: Skipping plug-in at path '/Library/Application Support/Developer/Shared/Xcode/Plug-ins/D for Xcode.xcplugin' because it is not compatible with this version of Xcode.
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_c0480 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+warning: The armv7s architecture is deprecated for your deployment target (iOS 12.1). You should update your ARCHS build setting to remove the armv7s architecture.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4bce6" "-configuration" "Debug"
+2019-03-05 16:05:36.402 xcodebuild[44498:7571474] [MT] PluginLoading: Skipping plug-in at path '/Library/Application Support/Developer/Shared/Xcode/Plug-ins/D for Xcode.xcplugin' because it is not compatible with this version of Xcode.
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_4bce6 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+warning: The armv7s architecture is deprecated for your deployment target (iOS 12.1). You should update your ARCHS build setting to remove the armv7s architecture.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /Users/admin/putao_ios/privchat/imsdk/ios-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a7562" "-configuration" "Debug"
+2019-03-05 16:05:37.662 xcodebuild[44523:7571608] [MT] PluginLoading: Skipping plug-in at path '/Library/Application Support/Developer/Shared/Xcode/Plug-ins/D for Xcode.xcplugin' because it is not compatible with this version of Xcode.
+Prepare build
+note: Using legacy build system
+
+=== BUILD TARGET cmTC_a7562 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+warning: The armv7s architecture is deprecated for your deployment target (iOS 12.1). You should update your ARCHS build setting to remove the armv7s architecture.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+

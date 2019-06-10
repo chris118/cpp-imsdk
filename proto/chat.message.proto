@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package ChatPb;
+
+message Message
+{
+    string chatId = 1;
+    string fromUserId = 2;
+    string messageId = 3;
+    string message = 4;
+    string localId = 5;
+}
+
+message MsgAck
+{
+    string chatId = 1;
+    string fromUserId = 2;
+}
+
+message UnreceivedMessage
+{
+    int32 count	=	1;
+    repeated Message msgs = 2;
+}
+
+message openReceivedMessageREQ
+{
+    bool on = 1;
+}
+
+message UnreceivedMessageRES
+{
+    repeated UnreceivedMessage unreceivedMessages = 1;
+}

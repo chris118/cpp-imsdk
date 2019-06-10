@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+import "chat.user.proto";
+
+package ChatPb;
+
+//CMD_CONTACTS_REQ
+message ContactREQ
+{
+	int64 timestamp = 1;
+}
+
+//CMD_CONTACTS_RES
+message ContactRES
+{
+	repeated User users = 1;
+	repeated string deleteUserIds = 2;
+	int64 timestamp = 3;
+}
+
+//CMD_SEARCH_USER_REQ
+message SearchUserREQ
+{
+	string key = 1; //全匹配 手机号或者账号
+}
+
+//CMD_SEARCH_USER_RES
+message SearchUserRES
+{
+	repeated User users = 1;
+}
+
+//CMD_APPLY_FRIEND_REQ
+message ApplyFriendREQ
+{
+	string uid = 1;
+	string message = 2;
+}
+
+//CMD_APPLY_FRIEND_RES
+message ApplyFriendRES
+{
+	string uid = 1;
+	bool   succeeded = 2;
+}
+
+//CMD_AGREE_FRIEND_REQ
+message AgreeFriendREQ
+{
+	string uid = 1;
+}
+
+//CMD_AGREE_FRIEND_RES
+message AgreeFriendRES
+{
+	string chatId = 1; //发欢迎消息 OnContact之后发送
+	string message = 2;
+}
+
+//CMD_DELETE_FRIEND_REQ
+message DeleteFriendREQ
+{
+	string uid = 1;
+}
+
+//CMD_DELETE_FRIEND_RES
+message DeleteFriendRES
+{
+	string uid = 1;
+	bool succeeded = 2;
+	string message = 3;
+}
+

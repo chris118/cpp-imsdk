@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "chat.base.proto";
+import "chat.user.proto";
+
+package ChatPb;
+
+//CMD_AUTHENTICATE_REQ
+message AuthenticateREQ
+{
+    string openId = 1;
+    string accessToken = 2;
+    string appId = 3;
+}
+
+//CMD_AUTHENTICATE_RES
+message AuthenticateRES
+{
+    bool authorized = 1;
+    User user	= 2;
+    string message = 3;
+    ErrorCode code = 4;
+}

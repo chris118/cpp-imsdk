@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package ChatPb;
+
+enum CMD
+{
+	CMD_ZERO            = 0;
+
+	CMD_PING                      = 1;
+	CMD_PONG                      = 2;
+
+	CMD_AUTHORIZE_REQ         = 101;
+	CMD_AUTHORIZE_RES         = 102;
+
+	CMD_CONTACTS_REQ            = 103;
+	CMD_CONTACTS_RES            = 104;
+
+	CMD_UNRECEIVE_REQ           = 105;
+	CMD_UNRECEIVE_RES           = 106;
+
+	CMD_MESSAGE_TRANSFER        = 108;
+	CMD_MESSAGE_ACK               = 110;
+
+	CMD_NOTIFY_TRANSFER       = 112;
+	CMD_NOTIFY_ACK          = 114;
+
+	CMD_REFRESH_PROFILE_REQ     = 115;
+	CMD_REFRESH_PROFILE_RES     = 116;
+
+	CMD_SEARCH_USER_REQ       = 117;
+	CMD_SEARCH_USER_RES       = 118;
+
+	CMD_APPLY_FRIEND_REQ      = 119;
+	CMD_APPLY_FRIEND_RES      = 120;
+
+	CMD_AGREE_FRIEND_REQ      = 121;
+	CMD_AGREE_FRIEND_RES      = 122;
+
+	CMD_DELETE_FRIEND_REQ     = 123;
+	CMD_DELETE_FRIEND_RES     = 124;
+}
+
+enum ErrorCode
+{
+	ERR_NONE					=	0;
+
+}

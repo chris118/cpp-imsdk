@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package ChatPb;
+
+message User
+{
+    string id = 1;
+    string chatId = 2;
+    string name = 3;
+    string remark = 4;
+    string avatar = 5;
+    string gender = 6;
+    string birthday = 7;
+}
+
+//CMD_REFRESH_PROFILE_REQ
+message RefreshUserREQ
+{
+    string uid = 1;
+}
